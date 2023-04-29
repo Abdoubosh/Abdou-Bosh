@@ -164,7 +164,7 @@
   }
   .right-side {
     margin: 0px;
-    justify-content:left;
+    justify-content:center;
   }
   .record-button, .apps-button,.creat-button,.notification-button,.menu-icon{
     padding: 0;
