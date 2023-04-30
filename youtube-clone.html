@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="images/icons/favicon.png" type="image/x-icon">
+    <title>Youtube clone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vids.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-side">
+        <button class="menu-icon">
+          <img class="menu-image" src="images/icons/menu.svg" alt="menu">
+        </button>
+        <a href="#" onclick="location.reload(); return false;" title="YouTube Home"> <!--Youtube icon-->
+          <img class="youtube-icon" src="images/icons/y.svg" alt="youtube-icon">
+        </a>
+      </div>
+      <div class="middle-side" >
+        <input class="searchbar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-image" src="images/icons/search.svg" alt="search">
+          <div class="tooltip"> Search</div>
+        </button>
+        <button class="record-button">
+          <img class="record-image" src="images/icons/record.svg" alt="record">
+          <div class="tooltip"> Search with your voice</div>
+        </button>
+      
+      </div>
+      <div class="right-side">
+        <button class="creat-button">
+          <img class="creat-image" src="images/icons/video-icon.svg" alt="vicon">
+          <div class="tooltip">Creat</div>
+        </button>
+        <button class="apps-button">
+          <img class="squares-image" src="images/icons/squares.svg" alt="squares">
+          <div class="tooltip">YouTube Apps</div>
+        </button>
+        <button class="notification-button">
+          <img class="bell-image" src="images/icons/bell.svg" alt="bell">
+          <div class="notification-count">8</div>
+          <div class="tooltip">Notifications</div>
+        </button>
+        <img class="profile-image" src="images/icons/000221212.jpg" alt="porfile">
+      </div>
+    </header>
+    <nav class="side-bar">
+      <a href="#" onclick="location.reload(); return false;" title="Home"> <!--Home-->
+        <div class="sidebar-link">
+          <img src="images/icons/home.svg" alt="home-icon">
+          <div>Home</div>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/shorts/AWhBsnlIzMI" target="_blank" title="Shorts"><!--Shorts-->
+        <div class="sidebar-link">
+          <img class="shorts" src="images/icons/shorts.png" alt="explore-icon">
+          <div>Shorts</div>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/feed/subscriptions" target="_blank" title="Subscriptions"><!--Subscriptions-->
+        <div class="sidebar-link">
+          <img src="images/icons/subscriptions.svg" alt="subscriptions-icon">
+          <div>Subscriptions</div>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/gaming" target="_blank" title="Games"><!--Games-->
+        <div class="sidebar-link">
+          <img src="images/icons/console.png" alt="originals-icon">
+          <div>Games</div>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ" target="_blank" title="Music"><!--YouTube Music-->
+        <div class="sidebar-link">
+          <img src="images/icons/youtube-music.svg" alt="music-icon">
+          <div>YouTube Music</div>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/feed/library" target="_blank" title="Library"><!--Library-->
+        <div class="sidebar-link">
+          <img src="images/icons/library.svg" alt="library-icon">
+          <div>Library</div>
+        </div>
+      </a>
+    </nav>
+    <main>
+      <section class="vids-grid">
+        <div class="video"> <!--1-->
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=mO0OuR26IZM&ab_channel=Netflix" target="_blank" title="EXTRACTION 2 &#124; Official Teaser Trailer &#124; Netflix">
+              <img class="thumbnail" src="images/h1.webp" alt="i1">
+              <div class="video-time">2:04</div>
+            </a>
+          </div>
+          <div class="under-video">
+            <div class="icon">
+              <a href="https://www.youtube.com/@Netflix" target="_blank" title="Netflix">
+                <img class="channel" src="images/h1-.jpg" alt="icon">
+              </a>
+            </div>
+            <div class="info">
+                <p class="title">
+                  <a href="https://www.youtube.com/watch?v=mO0OuR26IZM&ab_channel=Netflix" target="_blank" title="EXTRACTION 2 &#124; Official Teaser Trailer &#124; Netflix">
+                    EXTRACTION 2 &#124; Official Teaser Trailer &#124; Netflix
+                  </a>
+                </p>
+                <p class="author">
+                  <a href="https://www.youtube.com/@Netflix" target="_blank" title="Netflix">Netflix &#10003;</a>
+                </p>
+              </a>
+              <p class="views">9.8M views<strong> &#183;</strong> 3 weeks ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video"><!--2-->
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=79pKwdiqcwI&t=2s&ab_channel=PowerCouple" target="_blank" title="FASTEST Way to Learn Coding and ACTUALLY Get a Job">
+              <img class="thumbnail" src="images/h2.webp" alt="i2">
+              <div class="video-time">8:50</div>
+            </a>
+          </div>
+          <div class="under-video">
+            <div class="icon">
+              <a href="https://www.youtube.com/@Power_Couple" target="_blank" title="Power Couple">
+                <img class="channel" src="images/h2-.jpg" alt="icon">
+              </a>
+            </div>
+            <div class="info">
+              <p class="title">
+                <a href="https://www.youtube.com/watch?v=79pKwdiqcwI&t=2s&ab_channel=PowerCouple" target="_blank" title="FASTEST Way to Learn Coding and ACTUALLY Get a Job">
+                  FASTEST Way to Learn Coding and ACTUALLY Get a Job
+                </a>
+              </p>
+              <p class="author">
+                <a href="https://www.youtube.com/@Power_Couple" target="_blank" title="Power Couple">Power Couple &#10003;</a>
+              </p>
+              <p class="views">5.1M views<strong> &#183;</strong> 1 year ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video"> <!--3-->
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=k9WqpQp8VSU&ab_channel=NamanhKapur" target="_blank" title="How I Would Learn To Code (If I Could Start Over)">
+              <img class="thumbnail" src="images/h3.webp" alt="i1">
+              <div class="video-time">13:43</div>
+            </a>
+          </div>
+          <div class="under-video">
+            <div class="icon">
+              <a href="https://www.youtube.com/@namanhkapur" target="_blank" title="Namanh Kapur">
+                <img class="channel" src="images/h3-.jpg" alt="icon">
+              </a>
+            </div>
+            <div class="info">
+              <p class="title">
+                <a href="https://www.youtube.com/watch?v=k9WqpQp8VSU&ab_channel=NamanhKapur" target="_blank" title="How I Would Learn To Code (If I Could Start Over)">
+                  How I Would Learn To Code (If I Could Start Over)
+                </a>
+              </p>
+              <p class="author">
+                <a href="https://www.youtube.com/@namanhkapur" target="_blank" title="Namanh Kapur">Namanh Kapur &#10003;</a>
+              </p>
+              <p class="views">4.9M views<strong> &#183;</strong> 1 year ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video"> <!--4-->
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=xk4_1vDrzzo&t=1s&ab_channel=BroCode" target="_blank" title="Java Full Course for Free &#9749;">
+              <img class="thumbnail" src="images/h4.webp" alt="i1">
+              <div class="video-time">12:00:00</div>
+            </a>
+          </div>
+          <div class="under-video">
+            <div class="icon">
+              <a href="https://www.youtube.com/@BroCodez" target="_blank" title="Bro Code">
+                <img class="channel" src="images/h4-.jpg" alt="icon">
+              </a>
+            </div>
+            <div class="info">
+              <p class="title">
+                <a href="https://www.youtube.com/watch?v=xk4_1vDrzzo&t=1s&ab_channel=BroCode" target="_blank" title="Java Full Course for Free &#9749;">
+                  Java Full Course for Free &#9749;
+                </a>
+              </p>
+              <p class="author">
+                <a href="https://www.youtube.com/@BroCodez" target="_blank" title="Bro Code">Bro Code &#10003;</a>
+              </p>
+              <p class="views">6.6M views<strong> &#183;</strong> 2 years ago</p>
+              <p class="fundraiser"> Fundraiser</p>
+            </div>
+          </div>
+        </div>
+        <div class="video"> <!--5-->
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=9x9E2FFl9Yc&ab_channel=ChrisSean" target="_blank" title="You Will Not Make It Into Tech&colon; The Sad Reality">
+              <img class="thumbnail" src="images/h5.webp" alt="i1">
+              <div class="video-time">11:59</div>
+            </a>
+          </div>
+          <div class="under-video">
+            <div class="icon">
+              <a href="https://www.youtube.com/@RealChrisSean" target="_blank" title="Chris Sean">
+                <img class="channel" src="images/h5-.jpg" alt="icon">
+              </a>
+            </div>
+            <div class="info">
+              <p class="title">
+                <a href="https://www.youtube.com/watch?v=9x9E2FFl9Yc&ab_channel=ChrisSean" target="_blank" title="You Will Not Make It Into Tech&colon; The Sad Reality">
+                  You Will Not Make It Into Tech&colon; The Sad Reality
+                </a>
+              </p>
+              <p class="author">
+                <a href="https://www.youtube.com/@RealChrisSean" target="_blank" title="Chris Sean">Chris Sean &#10003;</a>
+              </p>
+              <p class="views">37K views<strong> &#183;</strong> 10 months ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video"> <!--6-->
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=ZsrahE6znRA&ab_channel=RapidTrailer" target="_blank" title="THE EQUALIZER 3 Official Trailler (2033)">
+              <img class="thumbnail" src="images/h6.webp" alt="i1">
+              <div class="video-time">3:20</div>
+            </a>
+          </div>
+          <div class="under-video">
+            <div class="icon">
+              <a href="https://www.youtube.com/@RapidTrailer" target="_blank" title="Rapid Trailler">
+                <img class="channel" src="images/h6-.jpg" alt="icon">
+              </a>
+            </div>
+            <div class="info">
+              <p class="title">
+                <a href="https://www.youtube.com/watch?v=ZsrahE6znRA&ab_channel=RapidTrailer" target="_blank" title="THE EQUALIZER 3 Official Trailler (2033)">
+                  THE EQUALIZER 3 Official Trailler (2033)
+                </a>
+              </p>
+              <p class="author">
+                <a href="https://www.youtube.com/@RapidTrailer" target="_blank" title="Rapid Trailler">Rapid Trailler &#10003;</a>
+              </p>
+              <p class="views">11K views<strong> &#183;</strong> 2 hours ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video"> <!--7-->
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=xUKKYX7Nvi4&ab_channel=PaidFromSurveys" target="_blank" title="Up To 9$ Per Data Entry Task &ndash; Axion Data Entry Services">
+              <img class="thumbnail" src="images/h7.webp" alt="i1">
+              <div class="video-time">7:19</div>
+            </a>
+          </div>
+          <div class="under-video">
+            <div class="icon">
+              <a href="https://www.youtube.com/@EarnWithMike" target="_blank" title="PaidFromSurveys">
+                <img class="channel" src="images/h7-.jpg" alt="icon">
+              </a>
+            </div>
+            <div class="info">
+              <p class="title">
+                <a href="https://www.youtube.com/watch?v=xUKKYX7Nvi4&ab_channel=PaidFromSurveys" target="_blank" title="Up To 9$ Per Data Entry Task &ndash; Axion Data Entry Services">
+                  Up To 9$ Per Data Entry Task &ndash; Axion Data Entry Services
+                </a>
+              </p>
+              <p class="author">
+                <a href="https://www.youtube.com/@EarnWithMike" target="_blank" title="PaidFromSurveys">PaidFromSurveys &#10003;</a>
+              </p>
+              <p class="views">191K views<strong> &#183;</strong> 2 weeks ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video"> <!--8-->
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=To8hKb112Aw&ab_channel=PIRATEKING" target="_blank" title="How I Would Learn To Code &#40;if I Could Start Over&#41;">
+              <img class="thumbnail" src="images/h8.webp" alt="i1">
+              <div class="video-time">10:52</div>
+            </a>
+          </div>
+          <div class="under-video">
+            <div class="icon">
+              <a href="https://www.youtube.com/@PIRATEKINGDOM" target="_blank" title="PIRATE KING">
+                <img class="channel" src="images/h8-.jpg" alt="icon">
+              </a>
+            </div>
+            <div class="info">
+              <p class="title">
+                <a href="https://www.youtube.com/watch?v=To8hKb112Aw&ab_channel=PIRATEKING" target="_blank" title="How I Would Learn To Code &#40;if I Could Start Over&#41;">
+                  How I Would Learn To Code &#40;if I Could Start Over&#41;
+                </a>
+              </p>
+              <p class="author">
+                <a href="https://www.youtube.com/@PIRATEKINGDOM" target="_blank" title="PIRATE KING">PIRATE KING &#10003;</a>
+              </p>
+              <p class="views">787K views<strong> &#183;</strong> 8 months ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video"> <!--9-->
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=L3wKzyIN1yk&ab_channel=RagnBoneManVEVO" target="_blank" title="Rag'n'Bone Man - Human &#40; Official Video &#41;">
+              <img class="thumbnail" src="images/h9.jpg" alt="i1">
+              <div class="video-time">3:18</div>
+            </a>
+          </div>
+          <div class="under-video">
+            <div class="icon">
+              <a href="https://www.youtube.com/@RagNBoneManVEVO" target="_blank" title="Rag'n'Bone Man">
+                <img class="channel" src="images/h9-.jpg" alt="icon">
+              </a>
+            </div>
+            <div class="info">
+              <p class="title">
+                <a href="https://www.youtube.com/watch?v=L3wKzyIN1yk&ab_channel=RagnBoneManVEVO" target="_blank" title="Rag'n'Bone Man - Human &#40; Official Video &#41;">
+                  Rag'n'Bone Man - Human &#40; Official Video &#41;
+                </a>
+              </p>
+              <p class="author">
+                <a href="https://www.youtube.com/@RagNBoneManVEVO" target="_blank" title="Rag'n'Bone Man"> Rag'n'Bone Man &#9834;</a>
+              </p>
+              <p class="views">1.6B views<strong> &#183;</strong> 6 years ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video"> <!--10-->
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=th4OBktqK1I&ab_channel=TechWithTim" target="_blank" title="Learn Python With This ONE Project&#33;">
+              <img class="thumbnail" src="images/h10.webp" alt="i1">
+              <div class="video-time">55:03</div>
+            </a>
+          </div>
+          <div class="under-video">
+            <div class="icon">
+              <a href="https://www.youtube.com/@TechWithTim" target="_blank" title="Tech With Tim">
+                <img class="channel" src="images/h10-.jpg" alt="icon">
+              </a>
+            </div>
+            <div class="info">
+              <p class="title">
+                <a href="https://www.youtube.com/watch?v=th4OBktqK1I&ab_channel=TechWithTim" target="_blank" title="Learn Python With This ONE Project&#33;">
+                  Learn Python With This ONE Project&#33;
+                </a>
+              </p>
+              <p class="author">
+                <a href="https://www.youtube.com/@TechWithTim" target="_blank" title="Tech With Tim">Tech With Tim &#9834;</a>
+              </p>
+              <p class="views">683K views<strong> &#183;</strong> 7 months ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video"> <!--11-->
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=RroDdybvu5s&ab_channel=Codehal" target="_blank" title="Personal Portfolio Website using HTML &amp; CSS">
+              <img class="thumbnail" src="images/h11.webp" alt="i1">
+              <div class="video-time">26:31</div>
+            </a>
+          </div>
+          <div class="under-video">
+            <div class="icon">
+              <a href="https://www.youtube.com/@codehal" target="_blank" title="Codehal">
+                <img class="channel" src="images/h11-.jpg" alt="icon">
+              </a>
+            </div>
+            <div class="info">
+              <p class="title">
+                <a href="https://www.youtube.com/watch?v=RroDdybvu5s&ab_channel=Codehal" target="_blank" title="Personal Portfolio Website using HTML &amp; CSS">
+                  Personal Portfolio Website using HTML &amp; CSS
+                </a>
+              </p>
+              <p class="author">
+                <a href="https://www.youtube.com/@codehal" target="_blank" title="Codehal">Codehal &#9834;</a>
+              </p>
+              <p class="views">118K views<strong> &#183;</strong> 3 weeks ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video"> <!--12-->
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=kQ-4bgu2htk&ab_channel=JamesCross" target="_blank" title="Learn Web Development And ACTUALLY Get A Job In 2023 &#124; Ultimate Guide">
+              <img class="thumbnail" src="images/h12.webp" alt="i1">
+              <div class="video-time">1:33:51</div>
+            </a>
+          </div>
+          <div class="under-video">
+            <div class="icon">
+              <a href="https://www.youtube.com/@jamescross" target="_blank" title="James Cross">
+                <img class="channel" src="images/h12-.jpg" alt="icon">
+              </a>
+            </div>
+            <div class="info">
+              <p class="title">
+                <a href="https://www.youtube.com/watch?v=kQ-4bgu2htk&ab_channel=JamesCross" target="_blank" title="Learn Web Development And ACTUALLY Get A Job In 2023 &#124; Ultimate Guide">
+                  Learn Web Development And ACTUALLY Get A Job In 2023 &#124; Ultimate Guide
+                </a>
+              </p>
+              <p class="author">
+                <a href="https://www.youtube.com/@jamescross" target="_blank" title="James Cross">James Cross &#9834;</a>
+              </p>
+              <p class="views">489K views<strong> &#183;</strong> 5 months ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    </body>
+</html>
